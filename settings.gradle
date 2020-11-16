@@ -1,0 +1,2 @@
+include ':floid'
+rootProject.name = "Floid"
