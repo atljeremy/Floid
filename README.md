@@ -84,7 +84,7 @@ class MapDriveFragment : Fragment(), OnMapReadyCallback {
         viewModel.state.observe(viewLifecycleOwner, ::render)
         
         initializeMapFragment()
-        ...
+        //...
     }
 
     /**
@@ -122,6 +122,6 @@ class MapDriveFragment : Fragment(), OnMapReadyCallback {
         viewModel.dispatch(DriveAction.Load(user))
     }
 
-    ...
+    //...
 }
 ```
