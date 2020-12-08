@@ -10,7 +10,6 @@ import kotlinx.coroutines.ExperimentalCoroutinesApi
 import kotlinx.coroutines.FlowPreview
 import kotlinx.coroutines.flow.*
 
-@ExperimentalCoroutinesApi
 @FlowPreview
 abstract class AndroidStatefulViewModel<Action, Data, State>(
         application: Application,

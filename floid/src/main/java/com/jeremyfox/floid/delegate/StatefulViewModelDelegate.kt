@@ -5,14 +5,12 @@ import kotlinx.coroutines.ExperimentalCoroutinesApi
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
 
-@ExperimentalCoroutinesApi
 interface StatefulViewModelDelegate<Action, Data, State> {
     val state: MutableLiveData<State>
     val actions: StateFlow<Action?>
     fun dispatch(action: Action)
 }
 
-@ExperimentalCoroutinesApi
 class StatefulViewModelImpl<Action, Data, State> : StatefulViewModelDelegate<Action, Data, State> {
     override val state = MutableLiveData<State>()
 

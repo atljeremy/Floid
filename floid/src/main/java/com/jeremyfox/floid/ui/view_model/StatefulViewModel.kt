@@ -9,7 +9,6 @@ import kotlinx.coroutines.ExperimentalCoroutinesApi
 import kotlinx.coroutines.FlowPreview
 import kotlinx.coroutines.flow.*
 
-@ExperimentalCoroutinesApi
 @FlowPreview
 abstract class StatefulViewModel<Action, Data, State>(
         delegate: StatefulViewModelDelegate<Action, Data, State> = StatefulViewModelImpl()
