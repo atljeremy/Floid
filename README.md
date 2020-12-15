@@ -5,7 +5,7 @@ Kotlin Flow Based Reactive Architecture.
 # Install
 
 ### Gradle
-`implementation "com.github.atljeremy:floid:0.0.1"`
+`implementation "com.github.atljeremy:floid:0.0.2"`
 
 # Usage
 
