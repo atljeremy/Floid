@@ -27,7 +27,6 @@ sealed class DriveAction {
 private const val LinkKey = "Link"
 
 @FlowPreview
-@ExperimentalCoroutinesApi
 class MapDriveViewModel(application: Application): AndroidStatefulViewModel<DriveAction, Response<Drive>, DriveState>(application) {
 
     @Inject
